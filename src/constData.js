@@ -1,4 +1,20 @@
-export const columnTitles = ['Athlete', 'Started', 'Min', 'T', 'T Att 3rd'];
+export const columnTitles = [
+  'Athlete',
+  'Started',
+  'Min',
+  'T',
+  'T Att 3rd',
+  'FA',
+  'TO',
+  'SH',
+  'CK',
+  'FK',
+  'GK',
+  'GTh',
+  'P',
+  'W',
+  'W%',
+];
 
 export const columns = [
   {
