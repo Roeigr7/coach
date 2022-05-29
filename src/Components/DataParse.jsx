@@ -30,7 +30,7 @@ const DataParse = () => {
   }
 
   useEffect(() => {
-    readRemoteFile('/u20advancedstats.csv', {
+    readRemoteFile(process.env.PUBLIC_URL + '/u20advancedstats.csv', {
       complete: (results) => {
         setTableData({
           home: results.data[0]['0'],
