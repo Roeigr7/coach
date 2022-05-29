@@ -1,0 +1,53 @@
+@import '~antd/dist/antd.css';
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ant-table-cell {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 10px;
+}
+
+tr td:first-child {
+  text-align: left;
+}
+.notPlayed {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table tfoot > tr > th,
+.ant-table tfoot > tr > td {
+  min-width: 80px;
+}
